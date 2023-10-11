@@ -15,6 +15,7 @@ const LoginForm = () => {
     const dispatch = useDispatch()
 
     function connect() {
+        
         dispatch(userLogin())
         console.log(store)
         navigate('/')
