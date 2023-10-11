@@ -20,7 +20,7 @@ const Message = ({id, authorID, firstName, lastName, message}) => {
     return (
         <div className={`${styles}`} key={id}>
             <div className="card-body">
-                <p className="card-text"><span className="text-primary">{`${author}`}:</span> {`${message}`}</p>
+                <p className="card-text"><span className="text-primary" role="author">{`${author}`}:</span> {`${message}`}</p>
             </div>
         </div>
     )
